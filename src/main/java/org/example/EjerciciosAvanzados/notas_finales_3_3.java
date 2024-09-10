@@ -9,7 +9,7 @@ public class notas_finales_3_3 {
         float[][] Notas = {
                 {5.0f, 4.9f, 4.9f, 5.0f}, //notas juan
                 {4.4f, 2.2f, 2.8f, 4.5f}, //notas victor
-                {5.0f, 3.2f, 4.8f, 3.0f}, //notas david
+                {5.0f, 3.2f, 4.8f, 3.0f}, //notas naranjo
                 {3.4f, 2.2f, 2.8f, 4.5f}  //notas pacheco
         };
 
