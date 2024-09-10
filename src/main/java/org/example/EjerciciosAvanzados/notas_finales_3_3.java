@@ -10,7 +10,7 @@ public class notas_finales_3_3 {
                 {5.0f, 4.9f, 4.9f, 5.0f}, //notas juan
                 {4.4f, 2.2f, 2.8f, 4.5f}, //notas victor
                 {5.0f, 3.2f, 4.8f, 3.0f}, //notas naranjo
-                {3.4f, 2.2f, 2.8f, 4.5f}  //notas pacheco
+                {1.4f, 2.2f, 2.8f, 4.5f}  //notas pacheco
         };
 
 
@@ -24,7 +24,12 @@ public class notas_finales_3_3 {
             }
 
             float notaFinal = suma / Notas[i].length;
-            System.out.println("- Nota definitiva: " + notaFinal);
+            System.out.print("- Nota definitiva: " + notaFinal);
+            if (notaFinal > 3.0f) {
+                System.out.println("- ** Aprobo **");
+            }else {
+                System.out.println("- *** Reprobo **");
+            }
         }
 
 
